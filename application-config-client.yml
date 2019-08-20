@@ -4,22 +4,22 @@ spring:
    - dev
 ---
 server:
- pory: 8201
+ port: 8201
 spring:
  profiles: dev
-  application:
-   name: microservicecloud-config-client
+ application:
+  name: microservicecloud-config-client
 eureka:
  client:
   service-url:
    defaultZone: http://eureka-dev.com:7001/eureka/
 ---
 server:
- pory: 8202
+ port: 8202
 spring:
  profiles: test
-  application:
-   name: microservicecloud-config-client
+ application:
+  name: microservicecloud-config-client
 eureka:
  client:
   service-url:
