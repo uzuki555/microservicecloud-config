@@ -5,10 +5,10 @@ spring:
 ---
 spring:
  profiles: dev
- application:
-  name: microservicecloud-config-wyj-dev
+  application:
+   name: microservicecloud-config-wyj-dev
 ---
 spring:
  profiles: test
- application:
-  name: microservicecloud-config-wyj-test
+  application:
+   name: microservicecloud-config-wyj-test
